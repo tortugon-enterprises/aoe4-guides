@@ -31,7 +31,7 @@ export default {
   },
   resolve: {
     alias: {
-      "source-map-js": "source-map",
+      // "source-map-js": "source-map",
       "@": fileURLToPath(new URL("./src", import.meta.url)),
     },
   },
